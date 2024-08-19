@@ -1,4 +1,5 @@
 import React from "react";
+import { Footer } from "./Footer.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -13,9 +14,8 @@ const Home = () => {
 			<div className="d-flex flex-column min-vh-100">
 			<Navbar/>
 			<Card/>
-			
 			</div>
-			
+			<Footer />
 		</div>
 	);
 };
