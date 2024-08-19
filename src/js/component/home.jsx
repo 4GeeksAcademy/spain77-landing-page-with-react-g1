@@ -1,4 +1,5 @@
 import React from "react";
+import { Footer } from "./Footer.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -16,7 +17,12 @@ const Home = () => {
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
 			</a>
-			{/* activa el footer*/}
+			<p>
+				Made by{" "}
+				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
+				love!
+			</p>
+			<Footer />
 		</div>
 	);
 };
